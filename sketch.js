@@ -278,7 +278,7 @@ function isPackingComplete() {
 function calculateRank() {
   if (packedFish === 100 && timeLeft > 30) rank = "S";
   else if (packedFish >= 50) rank = "A";
-  else if (packedFish >= 20) rank = "B";
+  else if (packedFish >= 30) rank = "B";
   else if (packedFish >= 10) rank = "C";
   else if (packedFish >= 5) rank = "D";
   else rank = "E for effort.";
